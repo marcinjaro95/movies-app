@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.active {
+  color: #009688;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-footer .footer-copyright, .page-header .nav, .movie-details {
+  width: 1280px;
+  margin: auto;
+}
+
+.nav {
+  box-shadow: none;
+}
+
+.page-footer .container {
+  width: 100%;
+}
