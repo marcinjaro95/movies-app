@@ -1,0 +1,12 @@
+.ng-invalid.ng-touched:not(form) {
+  border-bottom: 3px solid red;
+}
+
+.form {
+  padding: 20px 0;
+}
+
+
+.btn[type="reset"] {
+  margin-left: 5px;
+}
