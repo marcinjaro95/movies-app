@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Movie} from "../../models/movie";
-import {HttpService} from "../../services/http.service";
-import {HttpMoviesService} from "../../services/http-movies.service";
+import {Movie} from "../../../../core/models/movie";
+import {HttpService} from "../../../../core/services/http.service";
+import {HttpMoviesService} from "../../../../core/services/http-movies.service";
 
 @Component({
   selector: 'app-add-movie',

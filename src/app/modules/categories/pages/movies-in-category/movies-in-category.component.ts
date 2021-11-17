@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import {ActivatedRoute, ParamMap} from '@angular/router';
 import { switchMap } from 'rxjs/operators';
-import { HttpService } from '../../../services/http.service';
-import { Movie } from '../../../models/movie';
+import { HttpService } from '../../../../core/services/http.service';
+import { Movie } from '../../../../core/models/movie';
 
 @Component({
   selector: 'app-movies-in-category',

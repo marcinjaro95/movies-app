@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpService } from '../../../services/http.service';
-import { Movie } from '../../../models/movie';
+import { HttpService } from '../../../../core/services/http.service';
+import { Movie } from '../../../../core/models/movie';
 import {ActivatedRoute, ParamMap, Router} from "@angular/router";
 import {switchMap} from "rxjs/operators";
 import {Location} from "@angular/common";

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {HttpMoviesService} from "../../services/http-movies.service";
-import {Movie} from "../../models/movie";
+import {HttpMoviesService} from "../../../../core/services/http-movies.service";
+import {Movie} from "../../../../core/models/movie";
 
 @Component({
   selector: 'app-http-test',
